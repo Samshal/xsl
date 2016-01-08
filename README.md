@@ -39,7 +39,7 @@ $transpiler->importStylesheet($xslDoc);
 echo $transpiler->transformToXML($xmlDoc);
 ```
 
-## Create your own extenions
+## Create your own extensions
 
 You can also register your own extensions. Just implement the `XmlNamespaceInterface` and you
 are ready to use your own element transformations and xpath functions. See the example below and the [integration
